@@ -1,0 +1,66 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+:root{
+    --navy-blue: #03045eff;
+    --dark-cornflower-blue: #023e8aff;
+    --star-command-blue: #0077b6ff;
+    --blue-green: #0096c7ff;
+    --cerulean-crayola: #00b4d8ff;
+    --sky-blue-crayola: #48cae4ff;
+    --sky-blue-crayola-2: #90e0efff;
+    --blizzard-blue: #ade8f4ff;
+    --powder-blue: #caf0f8ff;;
+    --sea-green: #09814aff;
+    --ecru: #bcb382ff;
+    --gold-crayola: #e5c687ff;
+    --orange-yellow-crayola: #ffd275ff;
+    --earth-yellow: #e8ae68ff;
+    --cafe-au-lait: #a57f60ff;
+    --tumbleweed: #e3a587ff;
+    --fire-opal: #db5a42ff;
+}
+
+body{
+    /* background-color: var(--earth-yellow) */
+}
+
+.my-btn{
+    padding: 6px 25px;
+    border:none;
+    border-radius: 8px;
+    background-color: var(--fire-opal);
+
+}
+
+/* **************** This style the part displaying the health bar ************/
+
+.main-card{
+    border: 1px solid var(--powder-blue);
+    text-align: center;
+    /* padding: 0; */
+    --bs-gutter-x: 0;
+}
+
+.health-bar{
+    height: 20px;
+    background-color: var(--sea-green);
+    width: 100%;
+
+}
+
+#root footer{
+    background-color: var(--ecru);
+    color: cornsilk;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+}
