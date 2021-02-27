@@ -34,6 +34,8 @@ body{
     border:none;
     border-radius: 8px;
     background-color: var(--fire-opal);
+    width: 150px;
+    /* display: inline-block; */
 
 }
 
@@ -49,9 +51,22 @@ body{
 .health-bar{
     height: 20px;
     background-color: var(--sea-green);
-    width: 100%;
+    /* width: 40%; */
 
 }
+
+/* ***************This part styles the controls/ buttons for the game */
+
+.controls{
+    max-width: 60vw;
+    margin: auto;
+}
+.attack-btn-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 #root footer{
     background-color: var(--ecru);

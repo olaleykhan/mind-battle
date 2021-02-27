@@ -17,19 +17,25 @@
         <div class="container ">
             <div class="row justify-content-around">
                 <div class="col-4 player-card main-card">
-                    <div class="health-bar"></div>
+                    <div class="health-bar" :style="{width:playerHealth+'%'}"></div>
                     <p>Your health</p>
                 </div>
                 <div class="col-4 monster-card main-card">
-                    <div class="health-bar"></div>
+                    <div class="health-bar" :style="{width:monsterHealth+'%'}"></div>
                     <p>Monster Healt</p>
                 </div>
             </div>
 
         </div>
 
-        <div class="container">
-            <button class="my-btn">Attack</button>
+        <div class="controls">
+            <div class="attack-btn-div">
+                <button @click="attackMonster" class="my-btn">Attack</button>
+                <button class="my-btn"> Special Attack</button>
+            </div>
+            <div class="">
+                <button></button>
+            </div>
         </div>
 
 
